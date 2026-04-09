@@ -51,7 +51,8 @@
 
   <xacro:if value="$(arg include_scene_objects)">
     <xacro:ctb prefix="" parent="world">
-      <origin xyz="0.8 0.8 0.25" rpy="0 0 ${radians(90)}"/>
+      <!-- <body name="ctb" pos="" quat="0.0 0.0 0.0 1.0"> -->
+      <origin xyz="-0.45 1.1 0.85" rpy="0 0 ${radians(90)}"/>
     </xacro:ctb>
   </xacro:if>
 
