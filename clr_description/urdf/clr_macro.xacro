@@ -193,6 +193,26 @@
       <origin xyz="-0.0772 0.095 0.2635" rpy="0 0 0"/>
     </xacro:lift_camera>
 
+
+    <!-- Left and Right Scene Cameras -->
+    <xacro:include filename="$(find clr_description)/urdf/scene_camera.macro.xacro"/>
+    <xacro:scene_camera
+      tf_prefix="${tf_prefix}"
+      parent="world"
+      name="left_scene_camera"
+      use_camera_mesh="${use_camera_mesh}"
+    >
+      <origin xyz="-0.6 1.0 2.2" rpy="0 0 0"/>
+    </xacro:scene_camera>
+    <xacro:scene_camera
+      tf_prefix="${tf_prefix}"
+      name="right_scene_camera"
+      parent="world"
+      use_camera_mesh="${use_camera_mesh}"
+    >
+      <origin xyz="0.51 1.17 2.2" rpy="0 0 0"/>
+    </xacro:scene_camera>
+
     <!-- UPPER_LIFT_PLATE -->
     <xacro:upper_lift_plate
       tf_prefix="$(arg tf_prefix)"
