@@ -56,7 +56,6 @@
     <!-- Pose after camera calibration -->
     <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
     <xacro:sensor_d435 parent="${tf_prefix}${name}_mount" use_nominal_extrinsics="true" use_mesh="${use_camera_mesh}" name="${name}">
-        <!-- <origin xyz="-0.007666 0.1069 0.3866" rpy="-3.0512 -0.0276 1.5884"/> -->
         <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </xacro:sensor_d435>
 

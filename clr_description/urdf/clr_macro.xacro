@@ -203,11 +203,8 @@
       use_camera_mesh="${use_camera_mesh}"
     >
     
-      <!-- <origin xyz="-0.372 1.284 2.596" rpy="0.933 -0.345 -0.101"/> -->
-      <!-- <origin xyz="-0.372 1.284 2.596" rpy="1.952  0.265 -0.105"/> -->
-      <!-- <origin xyz="-0.372 1.284 2.596" rpy="0.285 -0.000  1.938"/> -->
-      <!-- <origin xyz="-0.372 1.284 2.596" rpy="-0.105246 0.2648029 1.9527127"/> -->
-      <origin xyz="-0.372 1.284 2.596" rpy="1.570 1.286 -2.775"/>
+    <!-- Values calculated based on Giovanni's camera placement in the scene -->
+      <origin xyz="-1.498697 1.0813555220000002 2.601912082" rpy="0.00015992907444591954 1.2228742441799936 -0.021996451697037067" />
     </xacro:scene_camera>
     <xacro:scene_camera
       tf_prefix="${tf_prefix}"
@@ -215,12 +212,8 @@
       parent="world"
       use_camera_mesh="${use_camera_mesh}"
     >
-      <!-- <origin xyz="-1.482 1.114 2.596" rpy="-1.594 -0.348 -0.008"/> -->
-      <!-- <origin xyz="-1.482 1.114 2.596" rpy="0.348  0.000 -1.593"/> -->
-      <!-- xyz -->
-      <!-- <origin xyz="-1.482 1.114 2.596" rpy="-0.0083523 -0.3481073 -1.5938004"/> -->
-      <!-- zyx -->
-      <origin xyz="-1.482 1.114 2.596" rpy="1.567 1.223 -0.025"/>
+    <!-- Values calculated based on Giovanni's camera placement in the scene -->
+      <origin xyz="-0.369328097 1.320383669 2.60289479" rpy="-0.0002902088964777949 1.2858154441839171 -2.7742751828866092" />    
     </xacro:scene_camera>
 
     <!-- UPPER_LIFT_PLATE -->
