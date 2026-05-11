@@ -93,6 +93,16 @@
         <joint name="wrist_3_joint" value="0.03171319141983986" />
       </group_state>
 
+      <group_state name="bag_pick_up" group="ur_manipulator">
+        <joint name="elbow_joint" value="-2.089" />
+        <joint name="shoulder_lift_joint" value="0.238" />
+        <joint name="shoulder_pan_joint" value="1.189" />
+        <joint name="wrist_1_joint" value="-0.985" />
+        <joint name="wrist_2_joint" value="1.936" />
+        <joint name="wrist_3_joint" value="3.14159" />
+      </group_state>
+
+
       <end_effector group="hand" name="hand" parent_group="ur_manipulator" parent_link="tool0"/>
       <!--VIRTUAL JOINT - Purpose - this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
       <!--DISABLE COLLISIONS - By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
