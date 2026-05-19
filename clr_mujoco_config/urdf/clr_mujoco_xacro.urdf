@@ -84,7 +84,7 @@
       <param name="sim_speed_factor">$(arg sim_speed)</param>
 
       <!-- Publish camera images at 5 hz -->
-      <param name="camera_publish_rate">5.0</param>
+      <param name="camera_publish_rate">30.0</param>
     </hardware>
     <joint name="vention_rail_base_to_carriage">
       <command_interface name="position"/>
@@ -146,7 +146,7 @@
     <joint name="wrist_3_joint">
       <command_interface name="position"/>
       <state_interface name="position">
-        <param name="initial_value">${-1.6177}</param>
+        <param name="initial_value">${3.14159}</param>
       </state_interface>
       <state_interface name="velocity"/>
       <state_interface name="effort"/>
