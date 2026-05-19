@@ -9,7 +9,7 @@
   </default>
   <asset>
     <texture type="2d" name="material_bench_lid_0" file="material_bench_lid_0.png"/>
-    <material name="material_bench_lid_0" texture="material_bench_lid_0" specular="0.4000000000000001" shininess="0.001"/>
+    <material name="material_bench_lid_0" texture="material_bench_lid_0" specular="0.4000000000000001" shininess="0.001" rgba="0.0 0.0 1.0 1.0"/>
     <mesh file="bench_lid.obj"/>
     <mesh file="bench_lid_collision_0.obj"/>
     <mesh file="bench_lid_collision_1.obj"/>
