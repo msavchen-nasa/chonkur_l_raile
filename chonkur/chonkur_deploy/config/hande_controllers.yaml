@@ -1,5 +1,6 @@
-controller_manager:
-  ros__parameters:
+/**:
+  controller_manager:
+    ros__parameters:
 
     robotiq_gripper_hande_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -17,11 +18,11 @@ robotiq_gripper_hande_controller:
       - position
     state_publish_rate: 100.0
 
-# robotiq_gripper_hande_controller:
-#   ros__parameters:
-#     default: true
-#     joint: finger_1_joint
+  # robotiq_gripper_hande_controller:
+  #   ros__parameters:
+  #     default: true
+  #     joint: $(var tf_prefix)finger_1_joint
 
-robotiq_activation_controller:
-  ros__parameters:
-    default: true
+  robotiq_activation_controller:
+    ros__parameters:
+      default: true
