@@ -50,6 +50,16 @@
         <joint name="${tf_prefix}finger_1_joint" value="0"/>
         <joint name="${tf_prefix}finger_2_joint" value="0"/>
       </group_state>
+
+      <group_state name="vla_home" group="ur_manipulator">
+        <joint name="${tf_prefix}elbow_joint" value="-2.089" />
+        <joint name="${tf_prefix}shoulder_lift_joint" value="0.238" />
+        <joint name="${tf_prefix}shoulder_pan_joint" value="1.189" />
+        <joint name="${tf_prefix}wrist_1_joint" value="-0.985" />
+        <joint name="${tf_prefix}wrist_2_joint" value="1.936" />
+        <joint name="${tf_prefix}wrist_3_joint" value="3.14159" />
+      </group_state>
+
       <group_state name="home" group="ur_manipulator">
         <joint name="${tf_prefix}elbow_joint" value="0" />
         <joint name="${tf_prefix}shoulder_lift_joint" value="-1.5707" />
