@@ -32,7 +32,7 @@ def generate_launch_description():
             "serial_no": "'207122078580'",
             "rgb_camera.profile": "1280,720,30",
             "initial_reset": "true",
-            "pointcloud.enable": "false",
+            "pointcloud.enable": "true",
             "align_depth.enable": "true",
         }.items(),
     )
